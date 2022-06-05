@@ -1,0 +1,265 @@
+{
+	"RNB": {
+		"address": "0xd7c628932AABBB98187E2b933528Afdb9BD9a8D1",
+		"abi": [
+			{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+			},
+			{
+			"inputs": [],
+			"name": "balanceOfContract",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [
+				{
+				"internalType": "uint256",
+				"name": "number",
+				"type": "uint256"
+				},
+				{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+				}
+			],
+			"name": "bet",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "claimReward",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getAmountWithdrawable",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getBettingData",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				},
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				},
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getBettingState",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getDurationOfBetting",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getEndTime",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getOwner",
+			"outputs": [
+				{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "getTotalAmount",
+			"outputs": [
+				{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+			},
+			{
+			"inputs": [
+				{
+				"internalType": "uint256",
+				"name": "_timeOfBetting",
+				"type": "uint256"
+				}
+			],
+			"name": "setBettingTime",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [
+				{
+				"internalType": "uint256",
+				"name": "_timeOfDelay",
+				"type": "uint256"
+				}
+			],
+			"name": "setDelayTime",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [
+				{
+				"internalType": "address",
+				"name": "_newAddress",
+				"type": "address"
+				}
+			],
+			"name": "setTokenAddress",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "startBetting",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [],
+			"name": "stopBetting",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			},
+			{
+			"inputs": [
+				{
+				"internalType": "address",
+				"name": "_newOwner",
+				"type": "address"
+				}
+			],
+			"name": "transferOwnership",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+			}
+		]
+	},
+	"UPC": {
+		"address": "0x6e3C8E1130Ca18A03cdC91159830E1Cbff74e1CD",
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		]
+	}
+}
